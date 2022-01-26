@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Food</title>
+    <style>
+      .divnav {
+        background-color: #f78800;
+        padding: 2%;
+        text-align: left;
+        font-size: 20px;
+        color: white;
+      }
+      ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        cursor: pointer;
+      }
+      .title {
+        margin: 1%;
+        margin-bottom: 3%;
+        text-align: center;
+        font-size: 35px;
+        color: #f78800;
+      }
+      .nav {
+        display: flex;
+        padding: 5px;
+      }
+      .nav1 {
+        margin-right: 2%;
+      }
+      img {
+        margin: 0px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .flexpic {
+        margin-left: 3%;
+        display: flex;
+        /* object-fit:cover; */
+      }
+      .imgH3 {
+        text-align: center;
+        color: #f78800;
+        font-size: 20px;
+        text-transform: uppercase;
+      }
+      .pagination {
+        margin: 5%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .pagination a {
+        color: black;
+        text-align: center;
+        padding: 8px 16px;
+        text-decoration: none;
+      }
+
+      .pagination a.active {
+        background-color: #f78800;
+        color: white;
+        border-radius: 20px;
+      }
+
+      .pagination a:hover:not(.active) {
+        background-color: #e79e44;
+        border-radius: 20px;
+      }
+      .hr {
+        width: 80%;
+        /* background-color: #f78800; */
+        margin: 5%;
+        /* text-align: center; */
+        margin-left: 10%;
+      }
+      .aboutme {
+        text-align: center;
+        color: #f78800;
+        font-size: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .aboutimg {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2%;
+      }
+      .who {
+        color: #f78800;
+        font-size: 30px;
+        margin-bottom: 0px;
+        text-align: center;
+      }
+      .footer {
+        /* position: fixed; */
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        line-height: 100px;
+        background-color: #f78800;
+        color: white;
+
+        /* text-align: center; */
+      }
+      * {
+        box-sizing: border-box;
+      }
+
+      .box {
+        float: left;
+        width: 33.33%;
+        padding: 50px;
+      }
+
+      .clearfix::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="divnav">
+      <ul class="nav">
+        <li class="nav1">Home</li>
+        
+        <li class="nav1">About</li>
+        
+        <li class="nav1">Contact</li>
+      </ul>
+    </div>
+    <div class="title">
+      <h2>Lahori Food</h2>
+    </div>
+    <div class="flexpic">
+      <div>
+        <img src="/images/vegetables.jpg" alt="" width="280px" height="400px" />
+        <h3 class="imgH3">Vegetables</h3>
+        <p style="text-align: center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+          incidunt?
+        </p>
+      </div>
+      <div>
+        <img src="/images/pasta.jpg" alt="" width="280px" height="400px" />
+        <h3 class="imgH3">Pasta</h3>
+        <p style="text-align: center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+          incidunt?
+        </p>
+      </div>
+      <div>
+        <img src="/images/coffee3.jpg" alt="" width="280px" height="400px" />
+        <h3 class="imgH3">Coffee</h3>
+        <p style="text-align: center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+          incidunt?
+        </p>
+      </div>
+      <div>
+        <img src="/images/popcorn.jpg" alt="" width="280px" height="400px" />
+        <h3 class="imgH3">PopCorn</h3>
+        <p style="text-align: center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+          incidunt?
+        </p>
+      </div>
+    </div>
+    <div class="flexpic">
+      <div>
+        <img src="/images/strawberry.jpg" alt="" width="280px" height="400px" />
+        <h3 class="imgH3">strawberry</h3>
+        <p style="text-align: center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+          incidunt?
+        </p>
+      </div>
+      <div>
+        <img src="/images/sandwich.jpg" alt="" width="280px" height="400px" />
+        <h3 class="imgH3">Sandwich</h3>
+        <p style="text-align: center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+          incidunt?
+        </p>
+      </div>
+      <div>
+        <img src="/images/fruits.jpg" alt="" width="280px" height="400px" />
+        <h3 class="imgH3">Fruits</h3>
+        <p style="text-align: center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+          incidunt?
+        </p>
+      </div>
+      <div>
+        <img src="/images/BRB.jpg" alt="" width="280px" height="400px" />
+        <h3 class="imgH3">B.R.B.Q</h3>
+        <p style="text-align: center">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+          incidunt?
+        </p>
+      </div>
+    </div>
+
+    <div class="pagination">
+      <a href="#">&laquo; </a>
+      <a href="#">1</a>
+      <a href="#" class="active">2</a>
+      <a href="#">3</a>
+      <a href="#">4</a>
+      <a href="#">&raquo;</a>
+    </div>
+
+    <hr class="hr" />
+    <h2 class="aboutme">About Me</h2>
+    <div>
+      <img
+        src="/images/3.jpg"
+        alt=""
+        width="700px"
+        height="700px"
+        style="margin-left: 25%"
+      />
+      <h3 class="who">WHO I AM</h3>
+      <p style="text-align: center">With Passion For Real</p>
+      <p style="text-align: center; width: 80%; margin-left: auto; margin-right: auto;" >
+        Just me, myself and I, exploring the universe of unknownment. I have a
+        heart of love and an interest of lorem ipsum and mauris neque quam blog.
+        I want to share my world with you. Praesent tincidunt sed tellus ut
+        rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+        congue gravida diam non fringilla. Praesent tincidunt sed tellus ut
+        rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies
+        congue gravida diam non fringilla.
+      </p>
+    </div>
+    <hr class="hr" />
+    <!-- <div class="footer">
+        <p>Footer</p>
+      </div> -->
+    <div class="clearfix">
+      <div class="box" style="background-color: #f78800">
+        <h2>Footer</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi animi
+          optio molestiae asperiores. Laborum, et..
+        </p>
+      </div>
+      <div class="box" style="background-color: #f78800">
+        <h2>Blog post</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi animi
+          optio molestiae asperiores. Laborum, et..
+        </p>
+      </div>
+      <div class="box" style="background-color: #f78800">
+        <h2>Popular tags</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Modi animi
+          optio molestiae asperiores. Laborum, et..
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
